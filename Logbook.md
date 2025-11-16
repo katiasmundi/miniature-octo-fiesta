@@ -6,4 +6,4 @@
 | 2.11.2025 | 3 | Cisco Networking Academy | Parts 1-3 |
 | 8.11.2025 | 2 | Cisco Networking Academy | Parts 3-5 and final exam |
 | 8.11.2025 | 2 | Lecture and Portswigger labs | 2 labs |
-| 16.11.2025 | 2,5 | Lecture and Portswigger labs | 2 labs |
+| 16.11.2025 | 2,5 | Lecture and Portswigger labs | 4 labs |
