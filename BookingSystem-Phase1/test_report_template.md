@@ -1,7 +1,7 @@
 # 1️⃣ Introduction
 
 **Tester(s):**  
-- Name:  
+- Name: Kati Asmundi  
 
 **Purpose:**  
 - Describe the purpose of this test (e.g., identify vulnerabilities in registration and authentication flows).
@@ -12,7 +12,7 @@
 - Test approach: Gray-box / Black-box / White-box
 
 **Test environment & dates:**  
-- Start:  
+- Start:  17.11.2025
 - End:  
 - Test environment details (OS, runtime, DB, browsers):
 
