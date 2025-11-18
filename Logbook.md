@@ -7,4 +7,5 @@
 | 8.11.2025 | 2 | Cisco Networking Academy | Parts 3-5 and final exam |
 | 8.11.2025 | 2 | Lecture and Portswigger labs | 2 labs |
 | 16.11.2025 | 2,5 | Lecture and Portswigger labs | 4 labs |
-| 17.11.2025 | 2 | Lecture and The Booking system project | Started to plan the task |
+| 17.11.2025 | 2 | Lecture and The Booking system project | Started to plan the task and downloaded Docker etc. |
+| 18.11.2025 | 2 | Lecture and The Booking system project | Started the task |
