@@ -14,7 +14,7 @@
 **Test environment & dates:**  
 - Start:  17.11.2025
 - End:  
-- Test environment details (OS, runtime, DB, browsers):
+- Test environment details (OS, runtime, DB, browsers): Google Chrome, 
 
 **Assumptions & constraints:**  
 - e.g., credentials provided, limited time, etc.
