@@ -23,16 +23,16 @@
 
 # 2️⃣ Executive Summary
 
-**Short summary (1-2 sentences):**  
+**Short summary (1-2 sentences):** The penetration test of the BookingSystem Phase 1 registration functionality revealed several significant security weaknesses, including a critical design flaw that allows any user to register as an administrator. In addition, missing input validation, insufficient security headers, stored XSS risks, and weak password handling substantially increase the overall attack surface.
 
-**Overall risk level:** Medium
+**Overall risk level:** High
 
 **Top 5 immediate actions:**  
-1.  Implement Anti-CSRF tokens on all POST forms
-2. Add critical security headers: CSP, X-Frame-Options, X-Content-Type-Options
-3. Fix the server error (HTTP 500) when invalid data is submitted
-4. Strengthen input validation to prevent malformed email injection attempts
-5. Add consistent error handling to avoid information disclosure
+1. Remove the administrator option from the public registration form and enforce server-side role validation.
+2. Implement robust server-side input validation for email, password, birthdate, and role fields.
+3. Introduce essential security headers (CSP, X-Frame-Options, X-Content-Type-Options) to reduce XSS and clickjacking risks.
+4. Fix the HTTP 500 error handling to prevent information leakage and improve backend stability.
+5. Strengthen password policy by enforcing minimum length and complexity requirements.
 
 ---
 
@@ -54,29 +54,16 @@
 
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
-| F-01 | 🔴 High | SQL Injection in registration | Input field allows `' OR '1'='1` injection | Screenshot or sqlmap result |
-| F-02 | 🟠 Medium | Session fixation | Session ID remains unchanged after login | Burp log or response headers |
-| F-03 | 🟡 Low | Weak password policy | Accepts passwords like "12345" | Screenshot of registration success |
+| F-01 | 🔴 High | Unrestricted Administrator Registration | The registration form allows users to select the “administrator” role directly from the dropdown menu. This enables any unauthenticated user to create a full-privilege admin account without restriction. This is a design-level flaw leading to complete system compromise. Also the role field is not validated server-side. | <img width="485" height="140" alt="image" src="https://github.com/user-attachments/assets/2b6cf0bb-1d56-4350-a47e-0981726de066" /> |
+| F-02 | 🔴 High | Missing Server-Side Input Validation | All input fields (email, password, birthdate, role) accept invalid, empty, malformed and harmful values. This exposes the system to XSS, SQLi, data corruption, and privilege escalation. | <img width="722" height="422" alt="image" src="https://github.com/user-attachments/assets/339e5754-bddb-4e47-8241-dffd08f47a77" />
+ |
+| F-03 | 🔴 High | Stored XSS (payload stored in DB) | Malicious JavaScript is stored in the database and will execute when rendered in future views (e.g., admin user list). This indicates missing sanitization and output encoding. | test<script>alert(1)</script>@mail.com <img width="1074" height="188" alt="image" src="https://github.com/user-attachments/assets/db04beb5-a545-43ba-82e9-0d30ff2651aa" />
+ |
+| F-04 | 🟠 Medium | Weak Password Policy | Extremely weak passwords—1 character or even empty strings—are accepted. This allows trivial account guessing and significantly weakens authentication security. | "password", "123", "a", "" etc. <img width="1043" height="200" alt="image" src="https://github.com/user-attachments/assets/9a8047b9-9b89-4894-a4b6-2b788999deba" />
+ |
+| F-05 | 🟠 Medium | SQL Injection Payload Stored (Not Executed) | SQL injection strings are stored in plain form, showing that sanitization is missing. While no SQL execution occurred, this indicates a high risk for future exploitation. | test@example.com' OR 1=1 -- <img width="1080" height="206" alt="image" src="https://github.com/user-attachments/assets/9ec164bf-f318-4bc7-8754-d4bf7ac50c03" />
+ |
 
-| F-01 | 🔴 High | Unrestricted Administrator Registration | The registration form allows users to select the “administrator” role directly from the dropdown menu. This enables any unauthenticated user to create a full-privilege admin account without restriction. This is a design-level flaw leading to complete system compromise. | <img width="485" height="140" alt="image" src="https://github.com/user-attachments/assets/2b6cf0bb-1d56-4350-a47e-0981726de066" /> |
-| F-02 | 🔴 High |  |  |  |
-| F-03 | 🔴 High |  |  |  |
-| F-04 | 🔴 High |  |  |  |
-| F-05 | 🔴 High |  |  |  |
-| F-06 | 🔴 High |  |  |  |
-| F-07 | 🔴 High |  |  |  |
-| F-08 | 🔴 High |  |  |  |
-| F-09 | 🔴 High |  |  |  |
-
-F-01	🔴 High	Role Manipulation / Privilege Escalation	The role field is not validated server-side, allowing a user to register as an administrator.	DB record: user_id 32 → role = administrator
-F-02	🔴 High	Missing Server-Side Input Validation	Application accepts invalid, empty, and malformed values in all fields (email, password, birthdate, role), enabling multiple attack vectors.	DB entries: empty username, invalid emails (test@, asdfgh), invalid birthdates
-F-03	🔴 High	Stored XSS (payload stored in DB)	Harmful JavaScript is stored in the database and will execute once rendered in any future view (e.g., admin panel).	DB: test<script>alert(1)</script>@mail.com
-F-04	🟠 Medium	Weak Password Policy	System accepts extremely weak and even empty passwords, allowing trivial account takeover.	DB examples: "", "a", "123", "i"
-F-05	🟠 Medium	SQL Injection Payload Accepted	SQLi strings are stored in the database, indicating missing sanitization, even though no execution occurred.	DB: test@example.com' OR 1=1 --
-F-06	🟠 Medium	No CSRF Protection	Registration form contains no anti-CSRF token, enabling CSRF attacks.	ZAP: “Absence of Anti-CSRF Tokens”
-F-07	🟠 Medium	Missing Security Headers	CSP, X-Frame-Options, and X-Content-Type-Options headers are missing, increasing XSS and clickjacking risk.	ZAP report (multiple instances)
-F-08	🟡 Low	Server Error Disclosure	Submitting invalid input produces HTTP 500, leaking internal behavior.	ZAP: “Application Error Disclosure”
-F-09	🟡 Low	Invalid Date and Age Handling	Birthdate validation is missing; underage users, future dates, and nonsensical years are accepted.	DB: 0015-01-01, 2050-01-01, under-15 birthdates
 ---
 
 > [!NOTE]
