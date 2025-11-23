@@ -50,7 +50,6 @@
 
 # 4️⃣ Findings (filled with examples → replace)
 
-> Fill in one row per finding. Focus on clarity and the most important issues.
 
 | ID | Severity | Finding | Description | Evidence / Proof |
 |------|-----------|----------|--------------|------------------|
@@ -71,20 +70,7 @@
 # 5️⃣ OWASP ZAP Test Report (Attachment)
 
 **Purpose:**  
-- Attach or link your OWASP ZAP scan results (Markdown format preferred).
-
----
-
-**Instructions (CMD version):**
-1. Run OWASP ZAP baseline scan:  
-   ```bash
-   zap-baseline.py -t https://example.com -r zap_report_round1.html -J zap_report.json
-   ```
-2. Export results to markdown:  
-   ```bash
-   zap-cli report -o zap_report_round1.md -f markdown
-   ```
-3. Save the report as `zap_report_round1.md` and link it below.
+- https://github.com/katiasmundi/miniature-octo-fiesta/blob/main/BookingSystem/Phase1/zap_report_round1.md 
 
 ---
 > [!NOTE]
