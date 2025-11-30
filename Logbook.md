@@ -8,8 +8,8 @@
 | 8.11.2025 | 2 | Lecture and Portswigger labs | 2 labs |
 | 16.11.2025 | 2,5 | Lecture and Portswigger labs | 4 labs |
 | 17.11.2025 | 2 | Lecture and The Booking system project | Started to plan the task and downloaded Docker etc. |
-| 18.11.2025 | 2,5 | Lecture and The Booking system project | Started the task 1-1 |
-| 19.11.2025 | 1 | The Booking system project | Testing plan |
-| 22.11.2025 | 2 | The Booking system project | Testing |
-| 23.11.2025 | 1,5 | The Booking system project | Report |
-| 30.11.2025 | x | Lecture and The Booking system project | Started the task 1-2 |
+| 18.11.2025 | 2,5 | Lecture and The Booking system project Phase 1-1 | Started the task |
+| 19.11.2025 | 1 | The Booking system project Phase 1-1 | Testing plan |
+| 22.11.2025 | 2 | The Booking system project Phase 1-1 | Testing |
+| 23.11.2025 | 1,5 | The Booking system project Phase 1-1 | Report |
+| 30.11.2025 | 3 | The Booking system project Phase 1-2 | Testing and report |
