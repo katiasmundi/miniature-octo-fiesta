@@ -9,6 +9,7 @@ Because the instructions mentioned that four of the passwords could be solved us
 3. iamyourfather@deathstar.gov - darkside42
 4. genius@starkindustries.com - iamironman
 
+(At first hashes.txt file contained only raw hashes, but after adding each corresponding username in the username:hash format, John the Ripper displayed the full username–password pairs correctly.)
 <img width="1004" height="657" alt="image" src="https://github.com/user-attachments/assets/ed883a13-06c9-4b3f-b39b-f9873d591461" />
 
 After that I focused on recovering one of the remaining hashes by isolating it into the hashes.txt file as a single entry: darkknight@gothamwatch.org:735f7f5e652d7697723893e1a5c04d90. Based on the provided hints, I knew that the password consisted of 12 lowercase letters, and that the first six characters were “iamven”. Because this structure was partially known, a targeted mask attack was the most efficient approach. I executed the command john.exe --format=raw-md5 --mask=iamven?l?l?l?l?l?l hashes.txt, which allowed John the Ripper to brute-force only the six unknown characters instead of attempting a full-length brute-force attack. Using this method, the password successfully resolved to:
