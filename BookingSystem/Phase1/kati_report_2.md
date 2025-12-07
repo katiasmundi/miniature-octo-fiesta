@@ -1,3 +1,4 @@
+# The Booking System – Phase 2: Password Cracking
 
 The primary tool that I used was John the Ripper (Jumbo build for Windows), supported by the widely used rockyou.txt password wordlist. I first collected all usernames and their corresponding MD5 password hashes from the database and saved them into a single hashes.txt file, using the username:hash format required by John the Ripper.
 
@@ -20,3 +21,9 @@ Finally, I verified the results by testing all five recovered username–passwor
 
 <img width="1004" height="385" alt="image" src="https://github.com/user-attachments/assets/30aa9bf6-fa66-4731-a605-0539f64dbee7" />
 
+
+A dictionary attack relies on predefined wordlists of common passwords, making it fast but limited, whereas non-dictionary attacks such as brute-force or mask attacks can generate all possible character combinations and therefore crack passwords that do not appear in any wordlist.
+
+When an attacker gains access to the system’s user database and password hashes, they can perform offline cracking without rate limits, logging, or account lockouts, allowing them to attempt millions of guesses per second using tools like John the Ripper.
+
+Longer passwords provide significantly stronger security because the search space grows exponentially with each additional character, making both dictionary and brute-force attacks far slower and often infeasible with realistic computational resources.
