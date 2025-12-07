@@ -13,3 +13,5 @@
 | 22.11.2025 | 2 | The Booking system project Phase 1-1 | Testing |
 | 23.11.2025 | 1,5 | The Booking system project Phase 1-1 | Report |
 | 30.11.2025 | 3 | The Booking system project Phase 1-2 | Testing and report |
+| 4.12.2025 | 0,5 | The Booking system project Phase 1-1 | Zap-testin&report again |
+| 7.12.2025 | x | The Booking system project Phase 2 |  |
