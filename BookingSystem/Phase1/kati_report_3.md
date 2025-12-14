@@ -30,7 +30,6 @@ The /api/users endpoint is accessible without authentication. Any guest user (in
 
 <img width="557" height="642" alt="image" src="https://github.com/user-attachments/assets/24b86ab6-7d63-43b3-81a4-fa70f9ae55af" />
 <img width="1004" height="221" alt="image" src="https://github.com/user-attachments/assets/4fa939d3-b1ab-4546-a348-aa66700d6edb" />
-<img width="944" height="1063" alt="image" src="https://github.com/user-attachments/assets/c41258d4-c24c-4183-86ba-9587db72a665" />
 
 F-02 🔴 High — IDOR in reservation management
 
@@ -70,6 +69,8 @@ Reservation data can be accessed by iterating reservation IDs using ffuf. Multip
   - Cannot access admin pages — /admin
   - Cannot access user management UI
   - Cannot authenticate as another user via frontend
+
+<img width="944" height="1063" alt="image" src="https://github.com/user-attachments/assets/c41258d4-c24c-4183-86ba-9587db72a665" />
 
 ## Reserver
 
