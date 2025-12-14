@@ -5,7 +5,7 @@
 ✅ Can do
 
   - Can view public resource list — /
-  -
+  - Can access login form — /login
   -
 
 ❌ Cannot do
@@ -17,7 +17,7 @@
 
 ✅ Can do
 
-  - Can view public resource list — /
+  - 
   -
   -
 
@@ -30,7 +30,7 @@
 
 ✅ Can do
 
-  - Can view public resource list — /
+  - 
   -
   -
 
