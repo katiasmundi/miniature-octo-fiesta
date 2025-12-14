@@ -1,6 +1,7 @@
 # Authorization Test Report
 
 Guest
+
 ✅ Can do
   - 
   -
@@ -12,6 +13,7 @@ Guest
   -
   
 Reserver
+
 ✅ Can do
   - 
   -
@@ -23,6 +25,7 @@ Reserver
   -
 
 Administrator
+
 ✅ Can do
   - 
   -
