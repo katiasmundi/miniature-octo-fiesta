@@ -1,13 +1,34 @@
 # Authorization Test Report
 
-## Guest
-Can do:
+Guest
+✅ Can do
   - 
   -
   -
 
-Cannot do:
+❌ Cannot do
   -
   -
   -
   
+Reserver
+✅ Can do
+  - 
+  -
+  -
+
+❌ Cannot do
+  -
+  -
+  -
+
+Administrator
+✅ Can do
+  - 
+  -
+  -
+
+❌ Cannot do
+  -
+  -
+  -
