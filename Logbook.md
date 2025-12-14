@@ -15,3 +15,6 @@
 | 30.11.2025 | 3 | The Booking system project Phase 1-2 | Testing and report |
 | 4.12.2025 | 0,5 | The Booking system project Phase 1-1 | Zap-testin&report again |
 | 7.12.2025 | 5 | The Booking system project Phase 2 | Testing, password cracking and reports |
+| 10.12.2025 | 6 | Lecture marathon | Studying |
+| 11.12.2025 | 0,5 | A lecture | Studying |
+| 14.12.2025 |  | The Booking system project Phase 3 |  |
