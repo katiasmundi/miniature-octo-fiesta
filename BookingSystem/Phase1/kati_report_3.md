@@ -32,6 +32,7 @@ The /api/users endpoint is accessible without authentication. Any guest user (in
 <img width="557" height="642" alt="image" src="https://github.com/user-attachments/assets/24b86ab6-7d63-43b3-81a4-fa70f9ae55af" />
 <img width="1004" height="221" alt="image" src="https://github.com/user-attachments/assets/4fa939d3-b1ab-4546-a348-aa66700d6edb" />
 
+
 F-02 🔴 High — IDOR in reservation management
 
 Endpoint: GET /reservation?id={id}
@@ -43,6 +44,7 @@ A reserver can access and modify reservations created by other users (including 
 <img width="983" height="177" alt="image" src="https://github.com/user-attachments/assets/5569074f-6278-4df1-8b13-a9fd5ff4855a" />
 <img width="1004" height="754" alt="image" src="https://github.com/user-attachments/assets/61917c8a-cf4c-4cfa-96cd-6bf3ffe3c8d4" />
 <img width="1004" height="314" alt="image" src="https://github.com/user-attachments/assets/5c318bc5-951d-492d-b7ff-a79cddffb900" />
+
 
 F-03 🔴 High — Missing authorization on reservation API
 
