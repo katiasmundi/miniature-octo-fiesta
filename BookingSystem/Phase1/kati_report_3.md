@@ -3,7 +3,8 @@
 ## Guest
 
 ✅ Can do
-  - 
+
+  - Can view public resource list — /
   -
   -
 
@@ -15,7 +16,8 @@
 ## Reserver
 
 ✅ Can do
-  - 
+
+  - Can view public resource list — /
   -
   -
 
@@ -27,7 +29,8 @@
 ## Administrator
 
 ✅ Can do
-  - 
+
+  - Can view public resource list — /
   -
   -
 
