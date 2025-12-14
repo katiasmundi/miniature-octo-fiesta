@@ -2,7 +2,7 @@
 
 The following actions and findigs were identified through manual exploration, OWASP ZAP scanning, and endpoint fuzzing (ffuf).
 
-## Endpoint & Action List
+## 1️⃣ Endpoint & Action List
 
 UI Pages:
 - /
@@ -21,11 +21,11 @@ API Endpoints:
 - PUT /api/reservations/{id}
 - DELETE /api/reservations/{id}
 
-## Findings
+## 2️⃣ Findings
 
 
 
-## Roles
+## 3️⃣ Roles
 
 ## Guest
 
