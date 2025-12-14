@@ -1,6 +1,6 @@
 # Authorization Test Report
 
-The following endpoints and actions were identified through manual exploration, OWASP ZAP scanning, and endpoint fuzzing (ffuf).
+The following actions and findigs were identified through manual exploration, OWASP ZAP scanning, and endpoint fuzzing (ffuf).
 
 ## Endpoint & Action List
 
@@ -21,10 +21,15 @@ API Endpoints:
 - PUT /api/reservations/{id}
 - DELETE /api/reservations/{id}
 
+## Findings
+
+
+
+## Roles
+
 ## Guest
 
 ✅ Can do
-
   - Can view public resource list — /
   - Can access login form — /login
   - Can access the registration form — /register
@@ -47,7 +52,6 @@ API Endpoints:
 ## Reserver
 
 ✅ Can do
-
   - Can log in to the system
   - Can create reservations for themselves — POST /api/reservations
   - Can access reservations belonging to other users via IDOR — GET /api/reservations/{id}
@@ -69,16 +73,17 @@ API Endpoints:
 ## Administrator
 
 ✅ Can do
-
-  - 
-  -
-  -
+  - Can log in as administrator
+  - Can add, modify, and delete resources
+  - Can create, modify, and delete any reservation
+  - Can change reservation ownership
 
 ❌ Cannot do
-  -
-  -
-  -
+  - Cannot modify or delete users (or atleast I didnt't find a way)
+  - Cannot rely on backend authorization to prevent lower roles from accessing admin data
+  - Cannot prevent reservation enumeration via predictable IDs
 
+<img width="1004" height="536" alt="image" src="https://github.com/user-attachments/assets/a69eccf5-6c6a-4bab-b7cf-6ebf4bf20cc1" />
 
 
 
