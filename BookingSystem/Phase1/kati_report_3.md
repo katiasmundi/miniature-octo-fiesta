@@ -26,6 +26,7 @@ API Endpoints:
 F-01 🔴 High — Unauthenticated access to user list
 
 Endpoint: GET /api/users
+
 The /api/users endpoint is accessible without authentication. Any guest user (including incognito mode) can retrieve the full list of users, including usernames, roles, and user tokens.
 
 <img width="557" height="642" alt="image" src="https://github.com/user-attachments/assets/24b86ab6-7d63-43b3-81a4-fa70f9ae55af" />
@@ -34,6 +35,7 @@ The /api/users endpoint is accessible without authentication. Any guest user (in
 F-02 🔴 High — IDOR in reservation management
 
 Endpoint: GET /reservation?id={id}
+
 A reserver can access and modify reservations created by other users (including administrators) by directly changing the reservation ID in the URL.
 
 <img width="1004" height="736" alt="image" src="https://github.com/user-attachments/assets/f94eff79-6ad0-4eac-9faf-0e581652ff9f" />
@@ -45,6 +47,7 @@ A reserver can access and modify reservations created by other users (including 
 F-03 🔴 High — Missing authorization on reservation API
 
 Endpoint: GET /api/reservations/{id}
+
 Reservation data can be accessed by iterating reservation IDs using ffuf. Multiple reservation IDs returned valid responses regardless of ownership.
 
 <img width="682" height="860" alt="image" src="https://github.com/user-attachments/assets/537473c7-8401-4743-ba88-932548add63c" />
