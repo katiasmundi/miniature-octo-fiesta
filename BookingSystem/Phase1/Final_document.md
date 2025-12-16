@@ -67,7 +67,7 @@ Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 - 
 
 **Mikä vei eniten aikaa:**  
-- 
+- Jostain syystä tässä tuli paljon ongelmia ja aihe oli myös jotenkin haastavampi ymmärtää, joten kaikkeen säätöön meni aikaa. Lisäksi kone tilttasi ja jouduin aloittamaan alusta (Zapin).
 
 **Mitä opit:**  
 - 
@@ -86,19 +86,22 @@ Kirjoita tähän 50–100 sanan pohdinta siitä, mitä opit tämän aiheen ja ku
 
 https://github.com/katiasmundi/miniature-octo-fiesta/new/main/BookingSystem/Phase1
 
+(Kaikki Phase1:n alla, kun alussa oli vähän ristiriitaisia ohjeita niin jäivät nyt sinne.)
+
 ### Kurssiin käytetty aika
 
 **Kokonaisaika:**  
-- XX tuntia
+- X tuntia
 
 **Tunnit aiheittain:**
-- Aihe 1: X tuntia
-- Aihe 2: X tuntia
-- Aihe 3: X tuntia
-- Aihe 4: X tuntia
+- The Booking system project: 30
+- Muut aiheet: x
 
 ---
 
 ## Palaute (valinnainen)
 
-Kirjoita halutessasi palautetta kurssista, sisällöstä, opetuksesta tai muista huomioista.
+Tehtävänannot olivat hiukan hajallaan ja pitkiä. Kesti aina aikaa löytää kunkin vaiheen ydin, ainakaan jos ei ollut malttanut katsoa tallennetta vielä ennakkoon. Näihin voisi kiinnittää huomiota, että tehtävän tavoite olisi heti tiivistettynä ytimekkäästi. Phaset 3-4 taisivatkin olla selkeämmät kuin aiemmat.
+Ihan todella mielenkiintoinen kurssi. Syvensin osaamista juttelemalla ChatGPT:n kanssa, niin se alkoi jossain välissä vastailemaan, että ei pysty antamaan ohjeita niin tuhoaviin toimenpiteisiin (käyttäjän poistaminen tietokannasta). 
+Mukava, kun opettaja käyttää oikeasti aikaa tehtävien tekemiseen ja tarkistamiseen. Plussaa, että ei tarvitse tehdä väkisin ryhmätyönä, niin oppii paljon enemmän.
+Oli kyllä ihan hirveästi työtä, mutta jospa tästä jäi jotain mieleen sen vuoksi. :)
