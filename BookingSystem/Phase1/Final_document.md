@@ -23,6 +23,7 @@ Lista suoritetuista laboratorioista:
 ### Phase 1
 **Kuvaus:**  
 
+Vaiheessa yksi 
 
 **Mikä toimi:**  
 
@@ -41,6 +42,7 @@ Lista suoritetuista laboratorioista:
 ### Phase 2
 **Kuvaus:**  
 
+Vaiheessa kaksi 
 
 **Mikä toimi:**  
 
@@ -61,35 +63,43 @@ Lista suoritetuista laboratorioista:
 
 ### Phase 3
 **Kuvaus:**  
-Vaiheessa kolme testattiin sovelluksen 
+
+Vaiheessa kolme testattiin sovelluksen autorisointia ja roolipohjaista pääsynhallintaa. Tarkoituksena oli selvittää, vastaavatko järjestelmän backend-tason oikeudet käyttöliittymän rajoituksia. Suoritin testauksen manuaalisesti selaimella, OWASP ZAPilla sekä ffuf-työkalulla eri käyttäjärooleilla (guest, reserver ja administrator).
 
 **Mikä toimi:**  
 
+Tehtävänanto oli selkeämpi kuin aiemmat.
 
 **Mikä ei toiminut:**  
-
+-
 
 **Mikä vei eniten aikaa:**  
-Jostain syystä tässä tuli paljon ongelmia ja aihe oli myös jotenkin haastavampi ymmärtää, joten kaikkeen säätöön meni aikaa. Lisäksi kone tilttasi ja jouduin aloittamaan alusta (Zapin).
+
+Jostain syystä tässä tuli paljon ongelmia ja aihe oli myös jotenkin haastavampi ymmärtää, joten kaikkeen säätöön meni aikaa. Lisäksi kone tilttasi ja jouduin aloittamaan alusta (Zapin). En myöskään meinannut hahmottaa millä työkalulla löydän piilotettuja endpointeja parhaiten.
 
 **Mitä opit:**  
 
+Piilotettujen endpointtien etsiminen on keskeinen osa autorisointitestausta. Autorisointi on toteutettava backendissä, eikä käyttöliittymän rajoituksiin voi luottaa. Ffuf:n käyttöä.
 
 ---
 ### Phase 4
 **Kuvaus:**  
+
 Vaiheessa neljä käytiin läpi varausjärjestelmää GDPR:n (ja Privacy by design:n) näkökulmasta. Kävin läpi, mitä henkilötietoja järjestelmä kerää, miten niitä käsitellään ja onko käyttäjien oikeudet (kuten tiedonsaanti ja tietojen poistaminen) huomioitu. Lisäksi tarkistin tietoturvakäytännöt sekä laadin puuttuvat dokumentit: Privacy Policy, Terms of Service ja Cookie Policy.
 
 **Mikä toimi:**  
+
 Henkilötietojen kartoitus oli melko suoraviivaista, koska tiedot löytyivät selkeästi tietokannasta ja lomakkeista. GDPR-checklist oli hyvä.
 
 **Mikä ei toiminut:**  
 -
 
 **Mikä vei eniten aikaa:**  
+
 Järjestelmän muutosten tutkiminen (vs. phase 3).
 
 **Mitä opit:**  
+
 GDPR on aiheena tuttu, mutta nyt mietin sitä ensimmäistä kertaa järjestelmän ominaisuuksien kautta ns. suunnittelunäkökulmasta. Monia seikkoja pitää ottaa huomioon, eikä pelkkä rekisteröitymislomakkeen tutkiminen riitä.
 
 
@@ -111,9 +121,11 @@ https://github.com/katiasmundi/miniature-octo-fiesta/new/main/BookingSystem/Phas
 ### Kurssiin käytetty aika
 
 **Kokonaisaika:**  
+
 - X tuntia
 
 **Tunnit aiheittain:**
+
 - The Booking system project: 30
 - Muut aiheet: x
 
