@@ -22,43 +22,58 @@ Lista suoritetuista laboratorioista:
 
 ### Phase 1
 **Kuvaus:**  
-- 
+
+
 **Mikä toimi:**  
-- 
+
+
 **Mikä ei toiminut:**  
-- 
+
+
 **Mikä vei eniten aikaa:**  
-- 
+
+
 **Mitä opit:**  
-- 
+
 
 ---
 
 ### Phase 2
 **Kuvaus:**  
-Kuvaa lyhyesti, mitä teit tässä vaiheessa.
+
+
 **Mikä toimi:**  
-- 
+
+
+
 **Mikä ei toiminut:**  
-- 
+
+
+
 **Mikä vei eniten aikaa:**  
-- 
+
+
+
 **Mitä opit:**  
-- 
+
 
 ---
 
 ### Phase 3
 **Kuvaus:**  
 Kuvaa lyhyesti, mitä teit tässä vaiheessa.
+
 **Mikä toimi:**  
-- 
+
+
 **Mikä ei toiminut:**  
-- 
+
+
 **Mikä vei eniten aikaa:**  
 Jostain syystä tässä tuli paljon ongelmia ja aihe oli myös jotenkin haastavampi ymmärtää, joten kaikkeen säätöön meni aikaa. Lisäksi kone tilttasi ja jouduin aloittamaan alusta (Zapin).
+
 **Mitä opit:**  
-- 
+
 
 ---
 ### Phase 4
@@ -66,13 +81,17 @@ Jostain syystä tässä tuli paljon ongelmia ja aihe oli myös jotenkin haastava
 
 
 **Mikä toimi:**  
-- 
+
+
 **Mikä ei toiminut:**  
-- 
+
+
 **Mikä vei eniten aikaa:**  
-- 
+
+
 **Mitä opit:**  
-- 
+
+
 
 ---
 ### Reflection
