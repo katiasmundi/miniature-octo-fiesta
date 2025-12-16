@@ -19,8 +19,8 @@
 
 | **Result** | **Booking visibility** |
 | :----: | :--- |
-| &nbsp;✅/❌/⚠️&nbsp; | Are bookings visible to non-logged-in users only at the resource level<br> (without any personal data)? |
-| &nbsp;✅/❌/⚠️&nbsp; | Is it ensured that names, emails, or other personal data of bookers are not exposed<br> publicly or to unauthorized users? |
+| &nbsp;✅&nbsp; | Are bookings visible to non-logged-in users only at the resource level<br> (without any personal data)? |
+| &nbsp;⚠️&nbsp; | Is it ensured that names, emails, or other personal data of bookers are not exposed<br> publicly or to unauthorized users? |
 
 --- 
 
