@@ -33,7 +33,7 @@
 ---
 
 | **Result** | **Privacy by Design Principles** | Comment |
-| :----: | :--- |
+| :----: | :--- | :--- |
 | &nbsp;⚠️&nbsp; | Has Privacy by Default been implemented (e.g., collecting the minimum data by default)? | x |
 | &nbsp;⚠️&nbsp; | Are logs implemented without unnecessarily storing personal data? | x |
 | &nbsp;❌&nbsp; | Are forms and system components designed with data protection in mind<br> (e.g., secured login, minimal fields)? |
