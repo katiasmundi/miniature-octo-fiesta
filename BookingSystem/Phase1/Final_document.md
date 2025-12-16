@@ -23,41 +23,43 @@ Lista suoritetuista laboratorioista:
 ### Phase 1
 **Kuvaus:**  
 
-Vaiheessa yksi 
+Vaiheessa yksi piti tunnistaa mahdollisia haavoittuvuuksia varhaisessa kehitysvaiheessa, keskittyen rekisteröintitoiminnallisuuteen. Testaus tehtiin OWASP ZAP -työkalulla sekä manuaalitestauksella.
 
 **Mikä toimi:**  
 
+ZAP toimi, kunhan opetteli sen käytön.
 
 **Mikä ei toiminut:**  
 
+Burpin ilmainen versio jolla ensin yritin.
 
 **Mikä vei eniten aikaa:**  
 
+Testisyötteiden suunnittelu ja manuaalinen syöttäminen, jotta ZAP tunnisti injektoitavat kentät. Lisäksi piti tehdä raportti uusiksi, kun en ollut tajunnut laittaa active-ajoa päälle niin kaikkea ei löytynyt. Aikaa vei myös uusien työkalujen käytön opettelu. Myös itse raportin kirjoittaminen ja viiden tärkeimmän havainnon päättäminen oli työlästä ja haastavaa.
 
 **Mitä opit:**  
 
+ZAPin ja Docker Desktopin käyttöä. Paljon uutta testauksesta ja erilaisista tietoturvahavainnoista sekä niiden luokittelusta.
 
 ---
 
 ### Phase 2
 **Kuvaus:**  
 
-Vaiheessa kaksi 
+Vaiheessa kaksi käyntiin läpi autentikointia ja salasanojen käsittelyä. Mursin tässä viisi eri salasanaa käyttäen eri tekniikoita.
 
 **Mikä toimi:**  
 
-
-
-**Mikä ei toiminut:**  
-
+Työkalut kuten John the Ripper olivat tehokkaita työkaluja salasanojen murtamisessa.
 
 
 **Mikä vei eniten aikaa:**  
 
-
+Työkalujen (John the Ripper, wordlistit, säännöt) asentaminen ja konfigurointi. Yksittäisten, sanakirjan ulkopuolisten salasanojen murtaminen brute force -menetelmällä.
 
 **Mitä opit:**  
 
+Käytännön tasolla, että mikä ero on esim. lyhyellä ja pitkällä salasanalla sen murtamisen näkökulmasta. Ja kuinka hirveän helppoa on parissa sekunnissa murtaa huono salasana, joka on huonosti hashatty.
 
 ---
 
@@ -69,9 +71,6 @@ Vaiheessa kolme testattiin sovelluksen autorisointia ja roolipohjaista pääsynh
 **Mikä toimi:**  
 
 Tehtävänanto oli selkeämpi kuin aiemmat.
-
-**Mikä ei toiminut:**  
--
 
 **Mikä vei eniten aikaa:**  
 
@@ -91,8 +90,6 @@ Vaiheessa neljä käytiin läpi varausjärjestelmää GDPR:n (ja Privacy by desi
 
 Henkilötietojen kartoitus oli melko suoraviivaista, koska tiedot löytyivät selkeästi tietokannasta ja lomakkeista. GDPR-checklist oli hyvä.
 
-**Mikä ei toiminut:**  
--
 
 **Mikä vei eniten aikaa:**  
 
