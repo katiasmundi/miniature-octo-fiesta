@@ -18,3 +18,4 @@
 | 10.12.2025 | 6 | Lecture marathon | Studying |
 | 11.12.2025 | 0,5 | A lecture | Studying |
 | 14.12.2025 | 9 | The Booking system project Phase 3 | OMG how much troubles today. Testing and report. |
+| 16.12.2025 | 3,5 | The Booking system project Phase 4 | Reports |
