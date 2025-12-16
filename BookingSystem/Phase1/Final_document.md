@@ -9,17 +9,12 @@
 ![PortSwigger Dashboard -kuvakaappaus](polku/kuvakaappaukseen.png)
 
 Lista suoritetuista laboratorioista:
-- File upload vulnerabilities → Remote code execution via web shell upload
-- 
-- 
-- 
-
-Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
-Lab: SQL injection vulnerability allowing login bypass
-Lab: Username enumeration via different responses
-Lab: Password reset broken logic
-Lab: Unprotected admin functionality
-Lab: User role can be modified in user profile
+- Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+- Lab: SQL injection vulnerability allowing login bypass
+- Lab: Username enumeration via different responses
+- Lab: Password reset broken logic
+- Lab: Unprotected admin functionality
+- Lab: User role can be modified in user profile
 
 ---
 
