@@ -61,7 +61,7 @@ Lista suoritetuista laboratorioista:
 
 ### Phase 3
 **Kuvaus:**  
-Kuvaa lyhyesti, mitä teit tässä vaiheessa.
+Vaiheessa kolme testattiin sovelluksen 
 
 **Mikä toimi:**  
 
@@ -78,19 +78,19 @@ Jostain syystä tässä tuli paljon ongelmia ja aihe oli myös jotenkin haastava
 ---
 ### Phase 4
 **Kuvaus:**  
-
+Vaiheessa neljä käytiin läpi varausjärjestelmää GDPR:n (ja Privacy by design:n) näkökulmasta. Kävin läpi, mitä henkilötietoja järjestelmä kerää, miten niitä käsitellään ja onko käyttäjien oikeudet (kuten tiedonsaanti ja tietojen poistaminen) huomioitu. Lisäksi tarkistin tietoturvakäytännöt sekä laadin puuttuvat dokumentit: Privacy Policy, Terms of Service ja Cookie Policy.
 
 **Mikä toimi:**  
-
+Henkilötietojen kartoitus oli melko suoraviivaista, koska tiedot löytyivät selkeästi tietokannasta ja lomakkeista. GDPR-checklist oli hyvä.
 
 **Mikä ei toiminut:**  
-
+-
 
 **Mikä vei eniten aikaa:**  
-
+Järjestelmän muutosten tutkiminen (vs. phase 3).
 
 **Mitä opit:**  
-
+GDPR on aiheena tuttu, mutta nyt mietin sitä ensimmäistä kertaa järjestelmän ominaisuuksien kautta ns. suunnittelunäkökulmasta. Monia seikkoja pitää ottaa huomioon, eikä pelkkä rekisteröitymislomakkeen tutkiminen riitä.
 
 
 ---
