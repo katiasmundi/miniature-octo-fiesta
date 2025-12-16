@@ -14,6 +14,13 @@ Lista suoritetuista laboratorioista:
 - 
 - 
 
+Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+Lab: SQL injection vulnerability allowing login bypass
+Lab: Username enumeration via different responses
+Lab: Password reset broken logic
+Lab: Unprotected admin functionality
+Lab: User role can be modified in user profile
+
 ---
 
 ## The Booking System Project
