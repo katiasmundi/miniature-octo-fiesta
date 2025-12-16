@@ -22,17 +22,13 @@ Lista suoritetuista laboratorioista:
 
 ### Phase 1
 **Kuvaus:**  
-Kuvaa lyhyesti, mitä teit tässä vaiheessa.
-
+- 
 **Mikä toimi:**  
 - 
-
 **Mikä ei toiminut:**  
 - 
-
 **Mikä vei eniten aikaa:**  
 - 
-
 **Mitä opit:**  
 - 
 
@@ -41,16 +37,12 @@ Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 ### Phase 2
 **Kuvaus:**  
 Kuvaa lyhyesti, mitä teit tässä vaiheessa.
-
 **Mikä toimi:**  
 - 
-
 **Mikä ei toiminut:**  
 - 
-
 **Mikä vei eniten aikaa:**  
 - 
-
 **Mitä opit:**  
 - 
 
@@ -59,16 +51,12 @@ Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 ### Phase 3
 **Kuvaus:**  
 Kuvaa lyhyesti, mitä teit tässä vaiheessa.
-
 **Mikä toimi:**  
 - 
-
 **Mikä ei toiminut:**  
 - 
-
 **Mikä vei eniten aikaa:**  
 - Jostain syystä tässä tuli paljon ongelmia ja aihe oli myös jotenkin haastavampi ymmärtää, joten kaikkeen säätöön meni aikaa. Lisäksi kone tilttasi ja jouduin aloittamaan alusta (Zapin).
-
 **Mitä opit:**  
 - 
 
@@ -79,18 +67,15 @@ Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 
 **Mikä toimi:**  
 - 
-
 **Mikä ei toiminut:**  
 - 
-
 **Mikä vei eniten aikaa:**  
 - 
-
 **Mitä opit:**  
 - 
 
 ---
-### Pohdinta (50–100 sanaa)
+### Reflection
 
 Kirjoita tähän 50–100 sanan pohdinta siitä, mitä opit tämän aiheen ja kurssin aikana kokonaisuutena.
 
@@ -115,7 +100,7 @@ https://github.com/katiasmundi/miniature-octo-fiesta/new/main/BookingSystem/Phas
 
 ---
 
-## Palaute (valinnainen)
+## Feedback
 
 Tehtävänannot olivat hiukan hajallaan ja pitkiä. Kesti aina aikaa löytää kunkin vaiheen ydin, ainakaan jos ei ollut malttanut katsoa tallennetta vielä ennakkoon. Näihin voisi kiinnittää huomiota, että tehtävän tavoite olisi heti tiivistettynä ytimekkäästi. Phaset 3-4 taisivatkin olla selkeämmät kuin aiemmat.
 Ihan todella mielenkiintoinen kurssi. Syvensin osaamista juttelemalla ChatGPT:n kanssa, niin se alkoi jossain välissä vastailemaan, että ei pysty antamaan ohjeita niin tuhoaviin toimenpiteisiin (käyttäjän poistaminen tietokannasta). 
