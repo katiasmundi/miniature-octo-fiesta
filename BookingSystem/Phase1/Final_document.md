@@ -20,7 +20,7 @@ Lista suoritetuista laboratorioista:
 
 ## The Booking System Project
 
-### Vaihe 1: Suunnittelu ja alustus
+### Phase 1
 **Kuvaus:**  
 Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 
@@ -38,7 +38,7 @@ Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 
 ---
 
-### Vaihe 2: Toteutus
+### Phase 2
 **Kuvaus:**  
 Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 
@@ -56,7 +56,7 @@ Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 
 ---
 
-### Vaihe 3: Testaus ja tietoturva
+### Phase 3
 **Kuvaus:**  
 Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 
@@ -73,7 +73,23 @@ Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 - 
 
 ---
+### Phase 4
+**Kuvaus:**  
+Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 
+**Mikä toimi:**  
+- 
+
+**Mikä ei toiminut:**  
+- 
+
+**Mikä vei eniten aikaa:**  
+- 
+
+**Mitä opit:**  
+- 
+
+---
 ### Pohdinta (50–100 sanaa)
 
 Kirjoita tähän 50–100 sanan pohdinta siitä, mitä opit tämän aiheen ja kurssin aikana kokonaisuutena.
