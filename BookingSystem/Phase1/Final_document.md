@@ -56,14 +56,14 @@ Kuvaa lyhyesti, mitä teit tässä vaiheessa.
 **Mikä ei toiminut:**  
 - 
 **Mikä vei eniten aikaa:**  
-- Jostain syystä tässä tuli paljon ongelmia ja aihe oli myös jotenkin haastavampi ymmärtää, joten kaikkeen säätöön meni aikaa. Lisäksi kone tilttasi ja jouduin aloittamaan alusta (Zapin).
+Jostain syystä tässä tuli paljon ongelmia ja aihe oli myös jotenkin haastavampi ymmärtää, joten kaikkeen säätöön meni aikaa. Lisäksi kone tilttasi ja jouduin aloittamaan alusta (Zapin).
 **Mitä opit:**  
 - 
 
 ---
 ### Phase 4
 **Kuvaus:**  
-Kuvaa lyhyesti, mitä teit tässä vaiheessa.
+
 
 **Mikä toimi:**  
 - 
