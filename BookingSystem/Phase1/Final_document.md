@@ -9,12 +9,19 @@
 ![PortSwigger Dashboard -kuvakaappaus](polku/kuvakaappaukseen.png)
 
 Lista suoritetuista laboratorioista:
-- Lab: SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
-- Lab: SQL injection vulnerability allowing login bypass
-- Lab: Username enumeration via different responses
-- Lab: Password reset broken logic
-- Lab: Unprotected admin functionality
-- Lab: User role can be modified in user profile
+- SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
+- SQL injection vulnerability allowing login bypass
+- Username enumeration via different responses
+- Password reset broken logic
+- Unprotected admin functionality
+- User role can be modified in user profile
+- Reflected XSS into HTML context with nothing encoded
+- Stored XSS into HTML context with nothing encoded
+- DOM XSS in document.write sink using source location.search
+- DOM XSS in innerHTML sink using source location.search
+- Detecting NoSQL injection
+- Exploiting NoSQL operator injection to bypass authentication
+- Exploiting an API endpoint using documentation
 
 ---
 
