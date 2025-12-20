@@ -127,12 +127,12 @@ https://github.com/katiasmundi/miniature-octo-fiesta/new/main/BookingSystem/Phas
 
 **Kokonaisaika:**  
 
-- X tuntia
+- 60 tuntia
 
 **Tunnit aiheittain:**
 
 - The Booking system project: 30
-- Muut aiheet: x
+- Muut aiheet: 30
 
 ---
 
