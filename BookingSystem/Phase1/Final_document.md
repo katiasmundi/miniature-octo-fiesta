@@ -2,11 +2,9 @@
 
 ## PortSwigger
 
-### Suoritetut laboratoriot
+### Suoritetut labrat
 
-*(Lisää alle kuvakaappaus, joka osoittaa suoritetut labrat, esim. Dashboard-näkymä)*
-
-![PortSwigger Dashboard -kuvakaappaus](polku/kuvakaappaukseen.png)
+<img width="776" height="259" alt="image" src="https://github.com/user-attachments/assets/fa651338-d8c7-4baf-bf9c-89e70a3df2bf" />
 
 Lista suoritetuista laboratorioista:
 - SQL injection vulnerability in WHERE clause allowing retrieval of hidden data
@@ -17,12 +15,14 @@ Lista suoritetuista laboratorioista:
 - User role can be modified in user profile
 - Reflected XSS into HTML context with nothing encoded
 - Stored XSS into HTML context with nothing encoded
+- Stored XSS into anchor href attribute with double quotes HTML-encoded
 - DOM XSS in document.write sink using source location.search
 - DOM XSS in innerHTML sink using source location.search
 - Detecting NoSQL injection
 - Exploiting NoSQL operator injection to bypass authentication
 - Exploiting an API endpoint using documentation
-
+- Exploiting XXE using external entities to retrieve files
+Yht: 15 kpl
 ---
 
 ## The Booking System Project
