@@ -2,7 +2,7 @@
 
 ## PortSwigger
 
-### Suoritetut labrat
+### Suoritetut labrat 15 kpl
 
 <img width="776" height="259" alt="image" src="https://github.com/user-attachments/assets/fa651338-d8c7-4baf-bf9c-89e70a3df2bf" />
 
@@ -23,7 +23,6 @@ Lista suoritetuista laboratorioista:
 - Exploiting an API endpoint using documentation
 - Exploiting XXE using external entities to retrieve files
 
-Yht: 15 kpl
 
 ---
 
