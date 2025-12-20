@@ -22,6 +22,7 @@ Lista suoritetuista laboratorioista:
 - Exploiting NoSQL operator injection to bypass authentication
 - Exploiting an API endpoint using documentation
 - Exploiting XXE using external entities to retrieve files
+
 Yht: 15 kpl
 ---
 
