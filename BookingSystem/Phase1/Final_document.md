@@ -111,7 +111,7 @@ GDPR on aiheena tuttu, mutta nyt mietin sitä ensimmäistä kertaa järjestelmä
 ---
 ### Reflection
 
-The Booking System -projektin aikana opin ihan todella paljon uutta tietoturvasta ja testaamisesta. Penetraatiotestaus ei ole vain yksittäisten haavoittuvuuksien löytämistä, vaan vaatii ymmärrystä mm. sovelluksen toiminnasta, käyttäjärooleista ja autentikoinnista. Opin käyttämään työkaluja kuten OWASP ZAP, ffuf ja John the Ripper ja lisäksi ymmärsin manuaalisen testauksen merkityksen. Lisäksi sain uutta näkökulmaa siihen, miten GDPR ja Privacy by Design eivät ole vain dokumentaatiota, vaan vaikuttavat suoraan järjestelmän teknisiin ratkaisuihin ja käyttäjäkokemukseen.
+The Booking System -projektin aikana opin ihan todella paljon uutta tietoturvasta ja testaamisesta. Opin, että penetraatiotestaus ei ole vain yksittäisten haavoittuvuuksien löytämistä, vaan vaatii ymmärrystä mm. sovelluksen toiminnasta, käyttäjärooleista ja autentikoinnista. Opin käyttämään työkaluja kuten OWASP ZAP, Ffuf ja John the Ripper ja lisäksi ymmärsin manuaalisen testauksen merkityksen. Lisäksi sain uutta näkökulmaa siihen, miten GDPR ja Privacy by Design eivät ole pelkästään dokumentaatiota, vaan vaikuttavat suoraan järjestelmän teknisiin ratkaisuihin.
 
 ---
 
