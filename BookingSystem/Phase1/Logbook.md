@@ -23,3 +23,4 @@
 | 19.12.2025 | 4 | The Final assignment and lecture and labs | Labs and report |
 | 20.12.2025 | 4 | The Final assignment and labs | Labs and report |
 | 21.12.2025 | 1 | The Final assignment and labs | Labs and report |
+| :---         | 60 |     :---:      |     :---:      |
